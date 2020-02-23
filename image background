@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+   <html>
+     <head>
+       <title></title>
+       <style>
+      . body{
+       background-image:url(static/background/bg1.png);
+       }
+       </style>
+     <head/>
+    <body>
+      <h2>Hi i am jhon babu></h2>
+    </body>
+   </html>    
