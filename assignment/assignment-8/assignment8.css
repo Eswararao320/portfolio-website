@@ -1,1 +1,42 @@
 /* Write your CSS here */
+      .image{
+        background-image:url(assets/bg-image.jpg);
+        background-size:cover;
+        background-repeat:no-repeat;
+        padding-top:200px;
+        height: 500px;
+      }
+      .smg{
+        background-image:url(../../static/Background/bg1.png);
+        width:200px;
+        height:200px;
+        background-repeat:no-repeat;
+        background-size:cover;
+        margin:auto;
+        -webkit-clip-path: circle(50% at 50% 50%);
+        border:5px solid white;
+        border-radius:50%; 
+      }
+      h1{
+        color:white;
+        text-align: center;
+        font-size: 60px;
+      }
+      h3{
+        color:white;
+        text-align: center;
+        font-size: 40px;
+      }
+ .last{
+        background-color:white;
+        height:50px;
+        width:90%;
+        border-radius: 30px;
+        margin-left:5%;
+        margin-top:100px;
+        text-align: center;
+        padding-top: 10px;
+      }
+      pre{
+        font-size: 15px;
+      }
