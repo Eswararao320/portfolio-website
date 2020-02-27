@@ -1,0 +1,25 @@
+/* Write your CSS here */
+body{
+        background:gray;
+        margin-top:100px;
+        margin-left:15%;
+      }
+      .box{
+        width:70%;
+        height: 400px;
+        /*background:white; */
+        background-image:url(assets/rabbit.jpeg);
+        background-repeat:no-repeat;
+        background-size:contain;
+        padding-top:50px;
+      }
+      .box2
+      {
+        box-sizing: border-box;
+        width:300px;
+        height: 300px;
+        border:20px solid orange;
+        margin:auto;
+        
+      }
+     
