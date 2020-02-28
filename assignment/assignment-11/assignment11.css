@@ -1,1 +1,46 @@
 
+    .proyuga {
+      background: gray;
+      /*height: 150px;*/
+      text-align: center;
+      font-size: 30px;
+      color: white;
+      padding-top: 50px;
+      border-radius: 20px;
+    }
+
+    .cyber {
+      background: gray;
+      /*height: 130px;*/
+      text-align: center;
+      font-size: 30px;
+      color: white;
+      padding-top: 42px;
+      border-radius: 15px;
+    }
+    .make {
+      background: gray;
+      /*height: 130px;*/
+      text-align: center;
+      font-size: 25px;
+      color: white;
+      padding-top: 25px;
+      border-radius: 15px;
+    }
+    .funding {
+      background: gray;
+      /*height: 130px;*/
+      text-align: center;
+      font-size: 30px;
+      color: white;
+      padding-top: 42px;
+      border-radius: 15px;
+    }
+
+    /*.para {*/
+    /*  font-size: 15px;*/
+    /*}*/
+    .row{
+       padding-bottom:10px;
+       padding-top:10px;
+      }
