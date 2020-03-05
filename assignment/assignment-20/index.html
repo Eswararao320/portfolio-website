@@ -1,17 +1,210 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <link rel="stylesheet" href="../../bootstrap/bootstrap.min.css" />
     <script src="../../bootstrap/jquery.min.js"></script>
     <script src="../../bootstrap/popper.min.js"></script>
     <script src="../../bootstrap/bootstrap.min.js"></script>
     <link rel="stylesheet" type="text/css" href="index.css" />
-  </head>
+    <style>
+        .friday {
+            padding-top: 20px;
+            font-weight: bold;
+            font-size: 20px;
+            color: white;
+        }
 
-  <body></body>
+        .date {
+            line-height: 0.5;
+            color: white;
+        }
+
+        .location {
+            height: 10px;
+            width: 10px;
+            /*margin-top: -20px;*/
+            /*display:inline-block;*/
+        }
+        .Location {
+            height: 14px;
+            width: 14px;
+            /*margin-top: -20px;*/
+            /*display:inline-block;*/
+        }
+
+        .loc {
+            color: white;
+            font-weight: normal;
+            margin-bottom: 90px;
+        }
+        .Loc {
+            color: white;
+            font-weight: bold;
+            margin-bottom: 90px;
+        }
+
+        .sun {
+            padding-top: 10px;
+            height: 80px;
+            width: 80px;
+        }
+
+        .c {
+            padding-top: 10px;
+            font-size: 60px;
+            color: white;
+        }
+
+        .sunny {
+            margin-top: -30px;
+            font-weight: bold;
+            font-size: 15px;
+            color: white;
+        }
+
+        .precipitation {
+            font-weight: bold;
+            color: white;
+
+        }
+
+        .sat {
+            background-color: white;
+            border-radius: 5px;
+            height: 100px;
+        }
+
+        .Sat {
+            /*background-color: white;*/
+            /*border-radius: 5px;*/
+            height: 100px;
+        }
+
+        .bsun {
+            margin: auto;
+            padding-top: 10px;
+            width: 40px;
+            height: 40px;
+        }
+
+        .ssat {
+            color: black;
+            text-align: center;
+        }
+
+        .sc {
+            font-weight: bold;
+        }
+
+        .sunday {
+            color: white;
+            text-align: center;
+        }
+
+        .ssunday {
+            font-weight: bold;
+            color: white;
+        }
+
+        .textright {
+            color: white;
+            font-weight: normal;
+            text-align: right;
+        }
+        .last{
+            /*border:1px solid black;*/
+            background-image:linear-gradient(135deg, #72edf2 10%, #5151e5 100%);
+            height: 30px;
+            text-align:center;
+            border-radius:10px;
+            margin-top:60px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="card mb-3" style="max-width: 600px;background-color:black;">
+                <div class="row no-gutters">
+                    <div class="col-6 coloring" style="border-radius:20px;"><img src="assets/background.jpeg" class="card-img">
+                        <div class="card-img-overlay" style="padding:10px;">
+                            <div class="friday">Friday</div>
+                            <p class="font-weight-light date">31-Jan-2020</p>
+                            <div class="loc"><img class="location" src="assets/location.svg" alt="location"> Kurnool</div>
+                            <div class="sun"><img src="assets/sun-white.svg" alt="sun" class="sun"></img>
+                            </div>
+                            <p class="font-weight-bold c">29ºc</p>
+                            <div class="sunny">Sunny</div>
+                        </div>
+                    </div>
+
+                    <!------------------>
+                    <div class="col-6" style='padding:20px;margin-top:20px;'>
+                        <div class="row">
+                            <div class="col-8">
+                                <p class="text-uppercase precipitation">precipitation</p>
+                            </div>
+                            <div class="col-4">
+                                <h6 class="textright">0 %</h6>
+                            </div>
+                            <div class="col-8">
+                                <p class="text-uppercase precipitation">humidity</p>
+                            </div>
+                            <div class="col-4">
+                                <h6 class="textright">34 %</h6>
+                            </div>
+                            <div class="col-8">
+                                <p class="text-uppercase precipitation">wind</p>
+                            </div>
+                            <div class="col-4">
+                                <h6 class="textright">0kmph</h6>
+                            </div>
+                        </div>
+
+                        <div class="row" style="padding-left:10px;padding-right:10px;">
+                            <div class="col-3 sat">
+                                <div><img src="assets/sun-black.svg" class="bsun"></div>
+                                <div class="ssat">Sat</div>
+                                <div class="sc">29ºc</div>
+                            </div>
+
+                            <div class="col-3 Sat">
+                                <div><img src="assets/cloud.svg" class="bsun"></div>
+                                <div class="sunday">Sun</div>
+                                <div class="ssunday">21ºc</div>
+                            </div>
+
+                            <div class="col-3 Sat">
+                                <div><img src="assets/cloud-snow.svg" class="bsun"></div>
+                                <div class="sunday">Mon</div>
+                                <div class="ssunday">08ºc</div>
+                            </div>
+
+                            <div class="col-3 Sat">
+                                <div><img src="assets/cloud-rain.svg" class="bsun"></div>
+                                <div class="sunday">Tue</div>
+                                <div class="ssunday">19ºc</div>
+                            </div>
+
+                        </div>
+                        
+                        <div class="last"><div class="Loc"><img class="Location" src="assets/location.svg" alt="location"> Change location</div></div>
+
+                    </div>
+
+
+
+                    <!-------------->
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+
 </html>

@@ -1,1 +1,9 @@
-
+.coloring{
+    background-image:linear-gradient(135deg,#72edf2 10%,#5151e5 100%);
+}
+.ig{
+    background-image: url(assets/background-image.jpeg);
+}
+.card-img{
+    opacity:0.2;
+}
