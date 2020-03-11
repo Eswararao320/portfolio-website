@@ -1,0 +1,54 @@
+/*@import url(media1.css);*/
+/*@media all{*/
+/*    body{*/
+/*        color: red;*/
+/*    }*/
+/*}*/
+/*    @media (max-width:767px){*/
+/*    body{*/
+/*        background-color: orange;*/
+/*    } */
+/*}*/
+/*@media (min-width:768px){*/
+/*    body{*/
+/*        background-color: pink;*/
+/*    }*/
+/*}*/
+/*@media (min-width:992px){*/
+/*    body{*/
+/*        background-color: blue;*/
+/*    }*/
+/*}*/
+/*@media only screen and (orientation:landscape){*/
+/*    body{*/
+/*        background-color: lightgreen;*/
+/*    }*/
+/*}*/
+
+
+*{
+    padding: 0px;
+    font-size: 0px;
+    margin: 0px;
+}
+
+@media(max-width:576px){
+    div{
+        background-color: orange;
+        border:3px dashed black;
+        width: 100%;
+        height: 50px;
+    }
+}
+@media(min-width:576px){
+    div{
+        background-color: green;
+        border:3px dashed black;
+        width: 33.333%;
+        height: 300px;
+        display:inline-block;
+        padding: 0px;
+        font-size: 0px;
+    }
+}
+

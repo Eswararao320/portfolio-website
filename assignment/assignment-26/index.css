@@ -1,0 +1,37 @@
+.heading {
+      font-weight: bold;
+      font-size: 45px;
+      color: black;
+      /*background-color: #4da6ff;*/
+      text-align: center;
+    }
+
+    .h {
+      font-weight: bold;
+      font-size: 45px;
+      color: black;
+      /*background-color: #4da6ff;*/
+      /*text-align: center;*/
+    }
+
+    h2 {
+      font-size: 45px;
+      font-weight: normal;
+    }
+
+    p {
+      font-size: 23px;
+    }
+
+    
+
+    h1 {
+      font-size: 35px;
+
+    }
+    
+    @media(width:768px){
+    .background {
+      background: gray;
+    }
+}
