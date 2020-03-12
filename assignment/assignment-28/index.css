@@ -1,0 +1,26 @@
+@media(max-width:576px){
+    .medium{
+        width:100%;
+    }
+    .medium1{
+        display: none;
+    }
+    
+    
+}
+@media(min-width:768px){
+    .medium1{
+        width:50%;
+        display: inline-block;
+    }
+    .medium{
+        width:50%;
+        display: inline-block;
+    }
+    .medium2{
+        display: none;
+    }
+}
+    
+    
+
